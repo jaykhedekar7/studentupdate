@@ -1,0 +1,842 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    border-top:0px solid #e44d26;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px; 
+    top: 0;
+    z-index:2;
+}
+
+.footer-container,
+.main aside {
+    width: 100%;
+    border-top: 10px solid #e44d26;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #f16529;
+}
+
+.title {
+    color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px 0;
+   
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #e44d26;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.row {
+   margin-left: -15px;
+  margin-right: -15px;
+  overflow-y: hidden;
+  display: table;
+
+  
+}
+
+.column {
+  position: relative;
+  min-height: 5px;
+  width: 30%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 992px){
+    .column {
+        float: left;
+
+    }
+
+
+.container {
+  width: 125%%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+  overflow: hidden;
+  }
+
+.showcase{
+  display: block;
+  width: 100%%;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px #888888;
+  background-color: #f16529/*#f29f67*/;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  overflow:hidden;
+}
+
+
+#box{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    overflow: hidden;
+
+}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    
+    #gap{
+        margin-top: 10px;
+        padding-top: 20px;
+        width: 200%;
+    }
+
+  .alignment{
+    margin-left: 18px;
+    margin-right: 10px;
+  }  
+  .column {
+        margin-left: 18px;
+        margin-right: 10px;
+
+
+
+    }
+ .comingsoon{
+    width: 100%;
+    overflow: hidden;
+ }
+ .container {
+  width: 120%%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+  overflow: hidden;
+  float: left;
+  }
+    #box{
+    width: 200%;
+    height: 100%;
+    padding: 20px;
+    
+    overflow: hidden;
+
+}
+
+#box1{
+    width: 75%;
+    height: 100%;
+    padding: 10px;
+    margin-bottom: auto;
+    overflow: hidden;
+
+}
+
+.showcase{
+  display: block;
+  width: 100%%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px #888888;
+  background-color: #f16529/*#f29f67*/;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  overflow:hidden;
+}
+
+#customers td, #customers th {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    padding: 3px;
+    
+}
+
+/* Styles */
+}
+.showcase0{
+  display: block;
+  border-radius: 10px;
+  background-color: #f16529/*#f29f67*/;
+  overflow:hidden;
+  text-align: center;
+}
+#box0{
+    width: 100%;
+        margin-top: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+}
+
+#box1{
+    width: 75%;
+    height: 100%;
+    padding: 20px;
+    ,margin-bottom: 10px;
+    overflow: hidden;
+
+}
+.showcase:hover {
+    box-shadow: 15px 15px 17px #888888;
+
+}
+
+.h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.image{
+    width: 100%;
+    padding: 2px;
+    align-self: center;
+    align-content: center;
+}
+
+
+ h2 a{
+    text-decoration: none;
+    color: white;
+
+ }
+
+h2 a:hover {
+    text-decoration: none;
+}
+
+#hello a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#hello a:hover{
+    text-decoration: underline;
+}
+
+.title a{
+    text-decoration: none;
+    color: white;
+    font-family: Times;
+}
+
+p{
+    color: white;
+}
+
+#about{
+    color: white;
+}
+
+.h2table{
+  font-size: 20px;
+}
+
+h3{
+  color: white;
+}
+
+/*======Table=========*/
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+#customers td, #customers th {
+    width: 33%;
+    border: 1px solid #ddd;
+    padding: 3px;
+    overflow-y: auto;
+
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: left;
+
+    background-color:#f16529;
+    color: white;
+}
+
+    /*table ends here*/
+
+
+/*=========FORM========*/
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #f16529;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #e44d26;
+}
+
+#submit {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    }
+
+/*==========ENDS HERE====*/
+
+
+/*=======Vertical top Scroll=====*/
+ 
+.marquee-top {
+    top: 6em;
+    position: relative;
+    box-sizing: border-box;
+    animation: marquee 10s linear infinite;
+}
+
+ .marquee-top:hover {
+    animation-play-state: paused;
+}
+
+/* Make it move! */
+@keyframes marquee {
+    0%   { top:   8em }
+    100% { top: -11em }
+}
+
+/* Make it look pretty */
+.microsoft .marquee-top {
+  margin: 0;
+    padding: 0 1em;
+    line-height: 1.5em;
+    font: 1em 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+
+.microsoft:before, .microsoft::before,
+.microsoft:after,  .microsoft::after {
+    left: 0;
+    z-index: 1;
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    width: 100%; height: 2em;
+    background-image: linear-gradient(180deg, #FFF, rgba(255,255,255,0));
+}
+
+.microsoft:after, .microsoft::after {
+    bottom: 0;
+    transform: rotate(180deg);
+}
+
+.microsoft:before, .microsoft::before {
+    top: 0;
+}
+
+/* Style the links */
+.vanity {
+    color: #333;
+    text-align: center;
+    font: .75em 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+
+.vanity a, .microsoft a {
+    color: #1570A6;
+    transition: color .5s;
+    text-decoration: none;
+}
+
+.vanity a:hover, .microsoft a:hover {
+    color: #F65314;
+}
+
+/* Style toggle button */
+.toggle {
+  display: block;
+    margin: 2em auto;
+}
+
+#ulvertical{
+  color: white;
+}
+.showcasemarquee{
+  display: block;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px #888888;
+  background-color: #f16529/*#f29f67*/;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  overflow:hidden;
+  height: 100px;
+}
+
+#boxmarquee{
+    width: 100%;
+    height: 100dpx;
+    padding: 20px;
+    overflow: hidden;
+
+}
+/*=====Ends here======*/
+
+
+ .home{
+  width: 50%;
+ }
+
+
+
+
+
+
+
+/*=======Buttons only======== */
+.button {
+    background-color: #f16529; /* Green */
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 2px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1 {
+   box-shadow: 4px 4px 5px #888888;;
+}
+
+
+/*This is to be used to use the button in html */
+/*Button ends here */
+
+/*===========BACK BUTTON=====*/
+.backbutton {
+    background-color: #e44d26; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 2px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.backbutton1 {
+   box-shadow: 2px 2px 2px #888888;;
+}
+/*==========ENDS HERE======*/
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+.row {
+   margin-left: -15px;
+  margin-right: -15px;
+  overflow-y: hidden;
+  display: table;
+  
+  margin: auto;
+
+  
+}
+
+.column {
+  position: relative;
+  min-height: 5px;
+  width: 30%;
+  margin: 0 auto;
+  
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.showcase{
+  display: block;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px #888888;
+  background-color: #f16529/*#f29f67*/;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  overflow:auto;
+}
+
+
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+        height: 100%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1140px; /* 1140px - 10% for margins */
+        margin: auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

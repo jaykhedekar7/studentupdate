@@ -1,0 +1,343 @@
+<!--======================First Year page===========-->
+<!doctype html>
+<html class="no-js" lang="">
+<link rel='shortcut icon' type='image/x-icon' href="C:\Users\Jay Khedekar\Desktop\News and updates\initializr\favicon.ico" >
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+     <!--=======================subject select script======================-->
+    <script>
+      $(function()
+        {
+        $('ul.testing a').click(function()
+          {
+            $('tr.all').hide();
+            $('tr.' + $(this).attr('class')).show();       
+          });
+        });
+    </script>
+
+      <!--=========================facebook sdk===========================-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9&appId=450747841932252";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '450747841932252',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+    <!--================= HEADER AND NAVBAR ================================-->
+        
+        <div class="header-container">
+            <header class="wrapper clearfix">
+
+                 <h1 class="title"><a  href="index.html">Student Update</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="wishlist.html">Wish List</a></li>
+                        
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <br>
+        <br>
+        <br>
+         <br>
+        <br>
+        <br>
+        
+        
+
+ <!--==========================MAIN CONTENT GRID ==============================-->
+<!--    <div class="main wrapper clearfix">
+    <div class="container"> --> 
+     <div class="container-fluid">  
+     <div class="main wrapper clearfix">
+                <br>
+            <div id="box0">
+            <div class="showcase0">
+            <h4 id="about">Select Subject</h4>
+            </div>
+            </div>
+            <div class="container-fluid">
+            <ul class="testing nav navbar-nav">
+            <li><a class="all" href="#">Show-all</a></li>
+            <li><a class="maths" href="#">Maths</a></li>
+            <li><a class="beee" href="#">BEEE</a></li>
+            <li><a class="chemistry" href="#">Chemistry</a></li>
+            <li><a class="emech" href="#">Emech</a></li>
+            <li><a class="eg" href="#">EG</a></li>
+            </ul>
+            </div>
+            <hr>   
+<table id="customers">
+  <tr>
+    <th><h2 class="h2table">Subject</h2></th>
+    <th><h2 class="h2table">Pages</h2></th>
+    <th><h2 class="h2table">Download</h2></th>
+  </tr>
+
+  <tr class="maths all">
+    <td>EM-2 UT2 Notes</td>
+    <td>42</td>
+   <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rT0hjQ0Y0bDdmd2M"><button class="button button1">Download</button></a></td>
+  </tr>
+   <tr class="maths all">
+    <td>EM-2 Linear Differential Equation</td>
+    <td>31</td>
+   <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rOTZObWdZd2s5RGM"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="maths all">
+    <td>EM-2 presentation solution</td>
+    <td>31</td>
+   <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rMWhnU0xPVHJiTkk">
+  <button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="maths all">
+    <td>EM-2 Vector Notes</td>
+    <td>30</td>
+   <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rX21QajRIWWdoVlk">
+  <button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="maths all">
+    <td>EM-1 Sequence and series </td>
+    <td>23</td>
+   <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rVGl2UDVXVjRrWTQ">
+  <button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="maths all">
+   <td>EM-2 Beta Gamma Function </td>
+   <td>23</td>
+   <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rTG9Xc055NnVHdEE">
+   <button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="maths all">
+    <td>EM-2 Multiple Integration </td>
+    <td>78</td>
+   <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rWjk4NVFNMjg5UTQ">
+  <button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="maths all">
+    <td>EM-2 CG and MI </td>
+    <td>23</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rRXRsNC1ZUjRPM0U">
+    <button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="maths all">
+    <td>EM-2 Sem-2 Q-Paper 2017 </td>
+    <td>2</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rVG5DMW1OX0lJQkU">
+    <button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="maths all">
+    <td>EM-2 UT-1 Q-Paper 2017 </td>
+    <td>2</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rN1VSWHRUV2NOMGs">
+    <button class="button button1">Download</button></a></td>
+  </tr>
+
+
+
+  <!--BEEE-->
+   <tr class="beee all">
+    <td>BEEE UT1 Notes</td>
+    <td>69</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rcTBqV2NEZHNTZGc" target=" "><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="beee all">
+   <td>BEEE TUTS</td>
+    <td>20</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rUktyaHFDZmlFVEE"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="beee all">
+   <td>BEEE Backlog 2017 Q-paper</td>
+    <td>2</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rX01tcmtqNWZPU0U"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="beee all">
+   <td>BEEE Transistor and Digital Electronics</td>
+    <td>21</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rTldILVJXWkQyX28"><button class="button button1">Download</button></a></td>
+  </tr>
+   <tr class="beee all">
+   <td>BEEE Energy Meter</td>
+    <td>3</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rQnFJa0JDd0lEQ2s"><button class="button button1">Download</button></a></td>
+  </tr>
+
+
+
+
+  <!--CHEMISTRY-->
+  <tr class="chemistry all">
+    <td>Chemistry Backlog 2017 Q-paper</td>
+    <td>2</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rMDlCNC1Zc3BaZnc"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="chemistry all">
+    <td>Chemistry UT2 Notes</td>
+    <td>33</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rUlRhdUdZYmpCYkU"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="chemistry all">
+    <td>Chemistry Phase rule ppt</td>
+    <td>15</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rbmp4cmxUVEctbkE"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="chemistry all">
+    <td>Chemistry Lime-Soda and zeolite Numericals</td>
+    <td>14</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rRFd2MW5FOHpUbFE"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="chemistry all">
+    <td>Chemistry 2017 End-Sem Q-Paper</td>
+    <td>2</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rdDdnYWNhdlRwdkU"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="chemistry all">
+    <td>Chemistry Corrosion pdf</td>
+    <td>29</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rMkp6dzRPMldtQUU"><button class="button button1">Download</button></a></td>
+  </tr>
+   <tr class="chemistry all">
+    <td>Chemistry Solid State pdf</td>
+    <td>59</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rOGNJRlJhWk5fSGM"><button class="button button1">Download</button></a></td>
+  </tr>
+   <tr class="chemistry all">
+    <td>Chemistry Energy Meter pdf</td>
+    <td>3</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rQnFJa0JDd0lEQ2s"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="chemistry all">
+    <td>Chemistry Infrared Radiation pdf</td>
+    <td>26</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rSEVHRktHNU0tR2M"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="chemistry all">
+    <td>Chemistry UV-Visible Radiation pdf</td>
+    <td>55</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rQUFLZDhoZ2ZYYVU"><button class="button button1">Download</button></a></td>
+  </tr>
+
+<!-- ENGINEERING GRAPHICS-->
+<tr class="eg all">
+    <td>EG End-Sem 2017 Q-paper</td>
+    <td>1</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rODUzZk9UeDV2MEE"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="eg all">
+    <td>EG UT2 2017 Q-paper</td>
+    <td>1</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rWjlSMzFKX3JheGM"><button class="button button1">Download</button></a></td>
+  </tr>
+
+
+
+
+ 
+  <!--EMECH-->
+  <tr class="emech all">
+    <td>Emech UT2 Notes</td>
+    <td>26</td>
+   <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rU0hFWGFNd29oaEE"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="emech all">
+    <td>Emech method of sections</td>
+    <td>21</td>
+   <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rSzNPZzNFUHJLTmM"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="emech all">
+    <td>Emech Tuts Solution</td>
+    <td>16</td>
+   <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rT0JiUmdFX1B2b0k"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="emech all">
+    <td>Emech Centroid solved Q</td>
+    <td>10</td>
+   <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rN2p3YnNlc1RaTUE"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="emech all">
+    <td>Emech Friction solved Q</td>
+    <td>29</td>
+   <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rM1NJLUNZR0tmdlE"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="emech all">
+    <td>Emech Backlog 2017 Q-paper</td>
+    <td>4</td>
+   <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3raEl3Mi0zZlVkcWs"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="emech all">
+    <td>Emech End-Sem 2017 Q-paper</td>
+    <td>2</td>
+   <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rNjJfUDlDTmh0Snc"><button class="button button1">Download</button></a></td>
+  </tr>
+
+
+<!--TABLE ENDS-->
+
+</table>
+     </div>
+      </div>  
+    
+ <br>
+
+
+
+ <!--===============================FOOTER BAR===================================-->            
+
+         <br>
+         <br>
+         <hr>
+         <div class="footer-container">
+            <footer class="wrapper">
+            <ul >
+              <li id="hello"><a href="about.html">About</a></li>
+              <li id="hello"><a href="developer.html">Developer</a></li>
+              <li id="hello"><a href="donate.html">Donate</a></li>
+            </ul>
+            <p align="right">&copy; Company 2017</p>
+            </footer>
+         </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
