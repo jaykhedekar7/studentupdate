@@ -1,0 +1,264 @@
+<!--======================First Year page===========-->
+<!doctype html>
+<html class="no-js" lang="">
+<link rel='shortcut icon' type='image/x-icon' href="C:\Users\Jay Khedekar\Desktop\News and updates\initializr\favicon.ico" >
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>SY-Mechanical</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+    <!--=======================subject select script======================-->
+    <script>
+      $(function()
+        {
+        $('ul.testing a').click(function()
+          {
+            $('tr.all').hide();
+            $('tr.' + $(this).attr('class')).show();       
+          });
+        });
+    </script>
+
+      <!--=========================facebook sdk===========================-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9&appId=450747841932252";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '450747841932252',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+    <!--================= HEADER AND NAVBAR ================================-->
+
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                 <h1 class="title"><a href="index.html">Student Update</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="wishlist.html">Wish List</a></li>
+                        
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <br>
+        <br>
+        <br>
+         <br>
+        <br>
+        <br>
+        
+        
+
+ <!--==========================MAIN CONTENT GRID ==============================-->
+<!--<div class="main-container">
+   <div class="main wrapper clearfix">
+     <div class="container"> -->
+     <div class="container-fluid">
+     <div class="main wrapper clearfix">   
+            <br>
+            <div id="box0">
+            <div class="showcase0">
+            <h4 id="about">Select Subject</h4>
+            </div>
+            </div>
+            <div class="container-fluid">
+            <ul class="testing nav navbar-nav">
+            <li><a class="all" href="#">Show-all</a></li>
+            <li><a class="maths" href="#">Maths</a></li>
+            <li><a class="sdca" href="#">SDCA</a></li>
+            <li><a class="de" href="#">DE</a></li>
+            <li><a class="nas" href="#">NAS</a></li>
+            <li><a class="dsa" href="#">DSA</a></li>
+            <li><a class="cs" href="#">CS</a></li>
+            </ul>
+            </div>
+            <hr>
+               
+ <table id="customers">
+  <tr>
+    <th><h2 class="h2table">Subject</h2></th>
+    <th><h2 class="h2table">Pages</h2></th>
+    <th><h2 class="h2table">Download</h2></th>
+  </tr>
+
+  <!--MATHS-->
+<!--   <tr class="maths all">
+    <td>-</td>
+    <td>-</td>
+   <td><a href="#"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="maths all">
+    <td>UT1 Maths Q-paper 2016</td>
+    <td>2</td>
+   <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rdnp3X0NvRERxazA"><button class="button button1">Download</button></a></td>
+  </tr>
+   <tr class="maths all">
+    <td>UT2 Maths Q-paper 2016</td>
+    <td>2</td>
+   <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rNWQ4djRJMWZ2V3c"><button class="button button1">Download</button></a></td>
+  </tr>-->
+  
+
+  <!--sdca-->
+  <tr class="sdca all">
+   <td>SDCA UT1 Notes </td>
+    <td>38</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rX24zQVdDaFRnX0k"><button class="button button1">Download</button></a></td>
+  </tr>
+  <!--<tr class="som all">
+   <td>End-Sem SOM Q-paper 2014 </td>
+    <td>3</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rMUoxRUx0X0xFcWM"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="som all">
+   <td>UT1 SOM Q-paper 2016 </td>
+    <td>2</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rNGtQbWk2UlM4dkk"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="som all">
+   <td>UT2 SOM Q-paper 2016 </td>
+    <td>2</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rMzhUWWItaXRkMk0"><button class="button button1">Download</button></a></td>
+  </tr>-->
+  
+  
+  
+
+
+<!--========================DE========================-->
+ <tr class="de all">
+   <td>DE UT1 Notes</td>
+    <td>70</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rb1BkUUtQWnJqQUk"><button class="button button1">Download</button></a></td>
+  </tr>
+  <!--<tr class="tom all">
+   <td>UT1 TOM Q-paper 2016</td>
+    <td>2</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rZm9ZSE85azVJZ0U"><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="tom all">
+   <td>UT2 TOM Q-paper 2016</td>
+    <td>2</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rQngtYVZ3aUxSc3c"><button class="button button1">Download</button></a></td>
+  </tr>-->
+
+
+
+
+  <!--NAS-->
+ <!-- <tr class="mt all">
+    <td> End-Sem MT Q-paper 2014</td>
+    <td>3</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rT0pIOUtWTHhVMVU" target=" "><button class="button button1">Download</button></a></td>
+  </tr>-->
+
+
+
+
+  <!--DSA-->
+ <!-- <tr class="at all">
+    <td>AT Notes UT1</td>
+    <td>33</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rQmFFOWRXTnVVTWc" target=" "><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="at all">
+    <td>End-Sem AT Q-paper 2013</td>
+    <td>2</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rWnNIQmFmSTZITFk" target=" "><button class="button button1">Download</button></a></td>
+  </tr>
+   <tr class="at all">
+    <td>UT1 AT Q-paper 2016</td>
+    <td>2</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rNVIwOWFoR0h4MDQ" target=" "><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="at all">
+    <td>UT2 AT Q-paper 2016</td>
+    <td>2</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rUl9WQXJ0X2VoN1U" target=" "><button class="button button1">Download</button></a></td>
+  </tr> -->
+  
+  
+
+
+
+
+  <!--CS-->
+<!--   <tr class="mm all">
+    <td>End-Sem MM Q-paper 2013</td>
+    <td>2</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rQTFWa3UtUm1MWG8" target=" "><button class="button button1">Download</button></a></td>
+  </tr>
+  <tr class="mm all">
+    <td>UT1 MM Q-paper 2016</td>
+    <td>2</td>
+    <td><a href="https://drive.google.com/uc?export=download&id=0B5G00zQUsc3rQ3NCWWgzZlJUT1E" target=" "><button class="button button1">Download</button></a></td>
+  </tr>-->
+
+
+
+
+  <!--TABLE ENDS-->
+
+</table>
+     </div>
+     </div>
+  <!--   </div>  
+    </div>
+ </div>-->
+ <br>
+
+
+ <!--===============================FOOTER BAR===================================-->            
+
+         <br>
+         <br>
+         <hr>
+         <div class="footer-container">
+            <footer class="wrapper">
+            <ul >
+              <li id="hello"><a href="about.html">About</a></li>
+              <li id="hello"><a href="developer.html">Developer</a></li>
+              <li id="hello"><a href="donate.html">Donate</a></li>
+            </ul>
+            <p align="right">&copy; Company 2017</p>
+            </footer>
+         </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
